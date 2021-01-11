@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MfShope</title>
+  <meta name="description" content="MfShop is the largest shop in bangladesh">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha38450oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+ 
+</head>
+
+<body>
+  <div class="top-menu">
+    <div class="container">
+      <div class="center row">
+        <div class="header-short-text col-4 ">Trusted Online Shopping Site in Bangladesh</div>
+        <div class="hotline-section col-3">
+          <span><a>09636102030</a> (9am to 11pm)</span>
+        </div>
+        <div class="header-upper-links-right col-3 ">
+          <a href="#">How to buy</a>
+          <a href="#">Sell with us</a>
+        </div>
+        <!-- <div class="regi-log col-2">
+          <a class="reg1" href="#">Register</a>
+          <a href="#">login</a>
+        </div> -->
+        <!-- login and register -->
+        <div class="regi-log col-2">
+          <a class="reg1" data-bs-toggle="modal" data-bs-target="#exampleModal" href="#">Register</a>
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Sign Up</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <form>
+                    <div class="input-group margin">
+                      <span class="input-group-text input-item">First Name</span>
+                      <input type="text" aria-label="First name" class="form-control">
+                    </div>
+                    <div class="input-group margin">
+                      <span class="input-group-text input-item">last Name</span>
+                      <input type="text" aria-label="Last name" class="form-control">
+                    </div>
+                    <div class="input-group margin">
+                      <span class="input-group-text input-item" id="addon-wrapping">@</span>
+                      <input type="text" aria-label="Last name" placeholder="Username" class="form-control">
+                    </div>
+
+                    <div class="input-group margin">
+                      <span class="input-group-text input-item">Email</span>
+                      <input type="email" aria-label="Last name" class="form-control">
+                    </div>
+                    <div class="input-group margin">
+                      <span class="input-group-text input-item">Password</span>
+                      <input type="password" aria-label="Last name" class="form-control">
+                    </div>
+                    <div class="input-group margin">
+                      <span class="input-group-text input-item" id="basic-addon2">Website</span>
+                      <input type="text" class="form-control" placeholder="example.com"
+                        aria-label="Recipient's username" aria-describedby="basic-addon2">
+
+                    </div>
+                    <div class="input-group margin">
+                      <label class="input-group-text input-item" for="inputGroupSelect01">Country</label>
+                      <select class="form-select" id="inputGroupSelect01">
+                        <option selected>Choose your country</option>
+                        <option value="Dhaka">Dhaka</option>
+                        <option value="rajshahi">Rajshahi</option>
+                        <option value="Barishal">Barishal</option>
+                      </select>
+                    </div>
+                    <div class="input-group margin">
+                      <span class="input-group-text input-item">About You</span>
+                      <textarea class="form-control" aria-label="With textarea"></textarea>
+                    </div>
+
+                    <div class="modal-footer">
+                      <button type="submit" class="btn btn-primary">Login</button>
+                    </div>
+                  </form>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <a class="reg1" data-bs-toggle="modal" data-bs-target="#exampleModal1" href="#">Login</a>
+          <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel1"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel1">Sign In</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <form>
+                    <div class="mb-3">
+                      <label for="recipient-name" class="col-form-label">Username:</label>
+                      <input type="text" class="form-control" id="recipient-name">
+                    </div>
+                    <div class="mb-3">
+                      <label for="message-text" class="col-form-label">Password</label>
+                      <input type="password" class="form-control" id="recipient-name">
+                    </div>
+                    <div class="modal-footer">
+                      <button type="submit" class="btn btn-primary">Login</button>
+                    </div>
+                  </form>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- other -->
+    </div>
+  </div>
+  <!-- menu end -->
+  <div class="container-fluid">
+    <div class="row">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img class="img-fluid" src="img/png24.png" alt="" srcset=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Products
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="mobile.html">Mobile Phone</a></li>
+                  <li><a class="dropdown-item" href="laptop.html">Laptop</a></li>
+                  <li><a class="dropdown-item" href="#">Camera & Accesories</a></li>
+
+                  <li><a class="dropdown-item" href="#">Car and Bike</a></li>
+                  <li><a class="dropdown-item" href="#">Water Purifiers</a></li>
+                  <li><a class="dropdown-item" href="#">Computer</a></li>
+                  <li><a class="dropdown-item" href="#">Kid's Zone</a></li>
+                  <li><a class="dropdown-item" href="#">Footwear</a></li>
+                  <li><a class="dropdown-item" href="#">Mobile Accesories</a></li>
+                  <li><a class="dropdown-item" href="#">Winter Collection</a></li>
+                  <li><a class="dropdown-item" href="#">Clothing</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="privacy.html">Privacy Policy</a>
+              </li>
+              
+              <li class="nav-item register">
+                <a class="nav-link " href="about.html">About us</a>
+              </li>
+              <li class="nav-item register">
+                <a class="nav-link " href="contact.html">Contact us</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+  </div>
+  <div class="slider">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
+        <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
+        <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="img-fluid" src="img/bike.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>CRAZY Sport Bikes</h5>
+            <!-- <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> -->
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/mobile.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>CRAZY Mobiles</h5>
+            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> -->
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="img/LAPTOP.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>CRAZY Laptops</h5>
+            <!-- <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> -->
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </a>
+    </div>
+  </div>
+  <!-- end -->
+  <div class="container">
+    <div class="row">
+
+      <h1 class="tumb-title">TOP SELLING CATEGORY</h1>
+      <div class="thumb-container">
+
+        <div class="thumb-item">
+          <div class="thumb-img">
+            <a href="mobile.html"><img src="img/0188824_mobile-phone_400.png" alt="bike"> </a>
+          </div>
+          <div class="product-name">
+            <a href="mobile.html">Mobile Phone</a>
+          </div>
+        </div>
+
+        <div class="thumb-item">
+          <div class="thumb-img">
+            <a href="laptop.html"><img src="img/2.png" alt="bike"> </a>
+          </div>
+          <div class="product-name">
+            <a href="laptop.html">Laptop</a>
+          </div>
+        </div>
+
+        <div class="thumb-item">
+          <div class="thumb-img">
+            <a href="#"><img src="img/3.png" alt="bike"> </a>
+          </div>
+          <div class="product-name">
+            <a href="#">Bike & Car</a>
+          </div>
+        </div>
+
+        <div class="thumb-item">
+          <div class="thumb-img">
+            <a href="#"><img src="img/home-office-appliances_400.png" alt="bike"> </a>
+          </div>
+          <div class="product-name">
+            <a href="#">Home appliances</a>
+          </div>
+        </div>
+
+        <div class="thumb-item">
+          <div class="thumb-img">
+            <a href="#"><img src="img/Untitled-2.png" alt="bike"> </a>
+          </div>
+          <div class="product-name">
+            <a href="#">water purifiers</a>
+          </div>
+        </div>
+
+        <div class="thumb-item">
+          <div class="thumb-img">
+            <a href="#"><img src="img/need-1.png" alt="bike"> </a>
+          </div>
+          <div class="product-name">
+            <a href="#">Furniture</a>
+          </div>
+        </div>
+
+      </div> <!-- 1st thumb-container-->
+
+      <h1 class="tumb-title">TOP SELLING CATEGORY</h1>
+      <div class="thumb-container">
+
+        <div class="thumb-item">
+          <div class="thumb-img">
+            <a href="#"><img src="img/shop-1.png" alt="bike"> </a>
+          </div>
+          <div class="product-name">
+            <a href="#">Camera Accosoris</a>
+          </div>
+        </div>
+
+        <div class="thumb-item">
+          <div class="thumb-img">
+            <a href="#"><img src="img/shop-3.png" alt="bike"> </a>
+          </div>
+          <div class="product-name">
+            <a href="#">Computer</a>
+          </div>
+        </div>
+
+        <div class="thumb-item">
+          <div class="thumb-img">
+            <a href="#"><img src="img/shop-2.png" alt="bike"> </a>
+          </div>
+          <div class="product-name">
+            <a class="text-wrap" href="#">Mobile Accosoris</a>
+          </div>
+        </div>
+
+        <div class="thumb-item">
+          <div class="thumb-img">
+            <a href="#"><img src="img/shop-4.png" alt="bike"> </a>
+          </div>
+          <div class="product-name">
+            <a href="#">Desktop & Monitor </a>
+          </div>
+        </div>
+
+        <div class="thumb-item">
+          <div class="thumb-img">
+            <a href="#"><img src="img/shop-5.png" alt="bike"> </a>
+          </div>
+          <div class="product-name">
+            <a href="#">Game Accoso..</a>
+          </div>
+        </div>
+
+        <div class="thumb-item">
+          <div class="thumb-img">
+            <a href="#"><img src="img/shop-6.png" alt="bike"> </a>
+          </div>
+          <div class="product-name">
+            <a href="#">digital service</a>
+          </div>
+        </div>
+
+      </div> <!-- 1st thumb-container-->
+      <h1 class="tumb-title">SHOP BY DAILY NEEDS</h1>
+      <div class="thumb-container">
+
+        <div class="thumb-item">
+          <div class="thumb-img">
+            <a href="#"><img src="img/need-2.png" alt="bike"> </a>
+          </div>
+          <div class="product-name">
+            <a href="#">Winter Collec..</a>
+          </div>
+        </div>
+
+        <div class="thumb-item">
+          <div class="thumb-img">
+            <a href="#"><img src="img/need-3.png" alt="bike"> </a>
+          </div>
+          <div class="product-name">
+            <a href="#">man's clothing</a>
+          </div>
+        </div>
+
+        <div class="thumb-item">
+          <div class="thumb-img">
+            <a href="#"><img src="img/need-4.png" alt="bike"> </a>
+          </div>
+          <div class="product-name">
+            <a class="text-wrap" href="#">women's clothing </a>
+          </div>
+        </div>
+
+        <div class="thumb-item">
+          <div class="thumb-img">
+            <a href="#"><img src="img/need-5.png" alt="bike"> </a>
+          </div>
+          <div class="product-name">
+            <a href="#">kid's zone</a>
+          </div>
+        </div>
+
+        <div class="thumb-item">
+          <div class="thumb-img">
+            <a href="#"><img src="img/need-6.png" alt="bike"> </a>
+          </div>
+          <div class="product-name">
+            <a href="#">daily need</a>
+          </div>
+        </div>
+
+        <div class="thumb-item">
+          <div class="thumb-img">
+            <a href="#"><img src="img/need-7.png" alt="bike"> </a>
+          </div>
+          <div class="product-name">
+            <a href="#">footwear</a>
+          </div>
+        </div>
+
+      </div> <!-- 1st thumb-container-->
+    </div> <!-- row -->
+  </div><!-- container -->
+  <!-- Footer -->
+  <footer class="page-footer font-small blue pt-4">
+
+    <!-- Footer Links -->
+    <div class="container-fluid text-center text-md-left">
+
+      <!-- Grid row -->
+      <div class="row">
+
+        <!-- Grid column -->
+        <div class="col-md-6 mt-md-0 mt-3">
+
+          <!-- Content -->
+          <h5 class="text-uppercase">CONTACT US</h5>
+          <address>
+            <p> 39, North Road, Vuter Goli, Near Jame Masjid, Dhanmondi, Dhaka 1205</p>
+            <a href="mailto:support@myshop.com">support@myshop.com</a> <br>
+            <a href="tel:09336782080">09336782080</a>
+            <div class="member-social">
+              <a href=""><i class="fab fa-facebook-square"></i></a>
+              <a href=""><i class="fab fa-twitter"></i></a>
+              <a href=""><i class="fab fa-linkedin-in"></i></a>
+              <a href=""><i class="fab fa-instagram"></i></a>
+            </div>
+          </address>
+
+        </div>
+        <!-- Grid column -->
+
+        <hr class="clearfix w-100 d-md-none pb-3">
+
+        <!-- Grid column -->
+        <div class="col-md-3 mb-md-0 mb-3">
+
+          <!-- Links -->
+          <h5 class="text-uppercase">CUSTOMER SERVICE</h5>
+
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!">Security Policy</a>
+            </li>
+            <li>
+              <a href="#!">Orders, Stock Availability & Pricing</a>
+            </li>
+            <li>
+              <a href="#!">Shipping & Replacement</a>
+            </li>
+            <li>
+              <a href="#!">Privacy Policy</a>
+            </li>
+            <li>
+              <a href="#!">Terms of Use</a>
+            </li>
+          </ul>
+
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 mb-md-0 mb-3">
+
+          <!-- Links -->
+          <h5 class="text-uppercase">MY ACCOUNT</h5>
+
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!">Shopping cart</a>
+            </li>
+            <li>
+              <a href="#!">Customer info</a>
+            </li>
+            <li>
+              <a href="#!">Orders</a>
+            </li>
+            <li>
+              <a href="#!">Wishlist</a>
+            </li>
+            <li>
+              <a href="#!">Addresses</a>
+            </li>
+
+          </ul>
+
+        </div>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row -->
+
+    </div>
+    <!-- Footer Links -->
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2020 Copyright:
+      <a href="#"> idbmannaf.com</a>
+    </div>
+    <!-- Copyright -->
+
+  </footer>
+  <!-- Footer -->
+
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

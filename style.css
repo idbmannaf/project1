@@ -1,0 +1,305 @@
+.navcontainer {
+  width: 99%;
+  /* overflow: hidden; */
+}
+
+.top-menu {
+  background-color: #4e56a6;
+}
+
+.center a {
+  text-decoration: none;
+}
+
+.center {
+  color: #fff;
+
+}
+
+.center a:link,
+.center a:visited {
+  color: #fff;
+}
+
+.center a:hover {
+  color: rgb(238, 178, 14);
+}
+
+a.reg1 {
+  margin-right: 11px;
+}
+
+.header-upper-links-right.col-3 a:first-child {
+  margin-right: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .header-short-text {
+    display: none;
+  }
+
+  .hotline-section {
+    display: none;
+  }
+
+  .header-upper-links-right {
+    display: none;
+  }
+
+  .regi-log {
+    display: flex;
+  }
+
+  .regi-log a {
+    font-size: 25px;
+  }
+
+  .reg1 {
+    padding: 0px 19px;
+
+  }
+
+  .center {
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+
+/* button{
+    background-color: cadetblue !important;
+    color: white;
+  } */
+.navbar {
+  background-color: #fff !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+}
+
+li.nav-item:hover {
+  color: #fff;
+  background-color: #1ad495;
+  border-radius: 10px;
+}
+
+.top-bar .btn-group {
+  text-align: right;
+  padding-right: 36px;
+  float: right;
+}
+
+li.nav-item {
+  margin: 0px 16px 0px 0px;
+  font-size: 19px;
+}
+
+a.navbar-brand {
+  width: 200px;
+}
+
+.dropdown-item:hover,
+.dropdown-item:hover {
+  background-color: blueviolet;
+  color: #fff;
+}
+
+/* top saling product */
+h1.tumb-title {
+  font-size: 1.6rem;
+  margin: 20px 0px;
+  /* box-shadow: 2px 2px 3px; */
+}
+
+.thumb-img {
+  width: 170px;
+  height: 152px;
+  background-color: #efefef;
+}
+
+.thumb-item:hover .thumb-img {
+  opacity: .8;
+
+}
+
+.thumb-item:hover a {
+  color: #f74258;
+
+}
+
+.thumb-img img {
+  width: 100%;
+}
+
+/* Trying */
+.thumb-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.thumb-item {
+  margin: 0px 7px;
+  box-shadow: 1px 1px 10px grey;
+  transition: .6s;
+  margin-bottom: 15px;
+}
+
+.product-name a {
+  text-decoration: none;
+  color: #777777;
+  font-weight: 600;
+}
+
+.product-name {
+  text-align: center;
+  font-size: 15px;
+  padding-top: 12px;
+  padding-bottom: 8px;
+  text-transform: uppercase;
+}
+
+/* footer */
+footer {
+  background-color: #ee2f49d1;
+  margin-top: 50px;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer a:active,
+footer a:visited,
+footer a:link {
+  color: #fff;
+}
+
+footer address {
+  color: white;
+}
+
+.member-social i {
+  padding: 10px;
+  border: 1px solid;
+  font-size: 28px;
+  border-radius: 50%;
+  color: white;
+  transition: 0.5s;
+
+
+}
+
+.member-social a:hover i {
+  background: orange;
+  transform: rotate(360deg);
+  color: #fff;
+}
+
+/* about-us */
+.about-us {
+  margin: 20px auto;
+}
+
+/* about-us */
+
+
+/* product */
+.product-contain {
+  margin: 20px auto;
+}
+
+.col-md-3.col-sm-12.sidebar {
+  box-shadow: 2px 2px 2px 2px grey;
+  width: 250px;
+  margin-right: 23px;
+  margin-top: 17px;
+  height: 586px;
+}
+
+
+.product-item {
+  text-align: center;
+  box-shadow: -2px 4px 10px grey;
+  margin-top: 17px;
+  width: 100%;
+  height: auto;
+  margin-bottom: 5px;
+}
+
+.product-btn {
+  border-top: 0.05px solid;
+  width: 100%;
+}
+
+.product-btn {
+  padding: 5px;
+  width: 100%;
+  font-size: 21px;
+  text-transform: uppercase;
+  transition: all .3s;
+  cursor: pointer;
+}
+
+.container-sm.product-contain a {
+  text-decoration: none;
+  color: #252525;
+}
+
+.product-item:hover .product-btn {
+  background-color: #f74258;
+  color: #fff;
+}
+
+.product-item:hover .product-btn a {
+  color: #fff;
+}
+
+.product-item p {
+  color: #00a1b1;
+  font-weight: bold;
+}
+
+/* extra */
+li.list-group-item:hover a {
+  color: red;
+  width: 100%;
+  margin: 0px;
+  cursor: pointer;
+}
+
+ul.list-group.list-group-flush:hover li {
+  cursor: pointer;
+  color: red;
+  width: 100%;
+  margin: 0px;
+}
+
+h3.product-main-t {
+  width: 237px;
+  box-shadow: 2px 2px 2px 2px grey;
+  padding: 9px;
+  color: #ee2f49;
+  text-align: center;
+}
+
+nav#navigationpage {
+  float: right;
+  margin-top: 10px;
+}
+
+.regi-log {
+  color: black;
+}
+
+.input-group.margin {
+  margin-bottom: 8px;
+}
+
+span.input-group-text.input-item {
+  width: 120px;
+}
+
+label.input-group-text.input-item {
+  width: 120px;
+}
